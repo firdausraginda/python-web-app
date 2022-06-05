@@ -43,3 +43,11 @@ export FLASK_ENV=development
 ```sh
 flask run
 ```
+
+### Database
+
+* create `init_db.py` to create table & insert static data to db
+* execute `init_db.py`, and file `database.db` will appear
+```sh
+python3 db_setup/init_db.py
+```
